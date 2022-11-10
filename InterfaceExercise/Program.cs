@@ -39,8 +39,14 @@ namespace InterfaceExercise
 
             //done Now, create objects of your 3 classes and give their members values;
             //done Creatively display and organize their 9values
+
+            var time = DateTime.Now;
+            Console.WriteLine($"{time}");
+
+
             Console.WriteLine("************************************************");
 
+            
 
             // TRUCK 
             var  ford = new Truck();
